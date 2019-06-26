@@ -1,0 +1,114 @@
+.jumbo-image{
+    height:100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron{
+
+    margin-top: 50px;
+}
+.image-project {
+  background-image: url("../img/the_untold_booth.jpg");
+}
+
+h1, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+a, p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.header{
+  font-weight: 500;
+  color:#000;
+  padding: 5px 10px;
+}
+
+.header-title{
+  font-size: 2em;
+}
+
+.header-text{
+  font-size:1.5em;
+}
+
+.row{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+@media (min-width: 768px){
+  .left-border{
+    border-style: solid;
+    border-width: 0 0 0 1px;
+  }
+  .row{
+  }
+  .project-row{
+    padding-top:80px;
+    padding-bottom:80px;
+  }
+}
+.content{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content-booth{
+  text-align:center;
+}
+.footer-row{
+  padding-bottom:0px;
+  text-align: center;
+}
+
+.content-pharagraph{
+  padding: 20px;
+}
+
+.content-pharagraph-project{
+  width:80%;
+}
+
+.content-image{
+  width:100%;
+}
+
+.video-container{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image-align-middle{
+  vertical-align: middle;
+}
+.footer{
+  width: 100%;
+  min-height: 212px;
+  background-color: #212223;
+  margin-top: 100px;
+  color:#fff;
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
